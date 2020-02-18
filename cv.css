@@ -1,0 +1,57 @@
+.margin{
+    margin: 30px;
+    padding: 10px;
+}
+
+body{
+    background-image: url('spikes.png')
+}
+
+h1{
+    background-image: url('beige-tiles.png');
+    /* background-size: 100px 100px; */
+    /* background-size: cover; */
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: 30%; */
+    /* background-size: auto 50px; */
+    text-align: center;
+    color: blue;
+    font-style: oblique;
+    /* border: solid; */
+    /* border-color: aqua; */
+    /* border-style: ridge; */
+    /* border-radius: 1rem;  */
+    /* border-image-outset: 15px; */
+    /* background-position: bottom; */
+    /* border-image-width: 30px; */
+    border-radius: 10px 100px / 120px;
+}
+
+h3, legend{
+    text-decoration: underline;
+    text-align: center;
+    color: coral;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.data {
+    border: ridge;
+    border-color: cornflowerblue;
+    border-right-color: darkgoldenrod;
+    border-left-color: darkmagenta;
+    border-top-color: darksalmon;
+    border-width: 2rem;
+    padding: 10px;
+}
+
+fieldset,li {
+    /* table-layout: auto; */
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style-type: "\1F44D";
+    background-image: url('beige-tiles.png');
+    margin: 10px;
+    color: blue;
+    
+}
